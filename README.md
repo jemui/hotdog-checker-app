@@ -1,0 +1,1 @@
+# hotdog-checker-app
