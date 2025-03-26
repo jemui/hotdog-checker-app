@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A89036192D94A687000A8A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A89035FA2D94A686000A8A0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89036012D94A686000A8A0B;
+			remoteInfo = HotdogCheckerApp;
+		};
+		A89036232D94A687000A8A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A89035FA2D94A686000A8A0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89036012D94A686000A8A0B;
+			remoteInfo = HotdogCheckerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A89036022D94A686000A8A0B /* HotdogCheckerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotdogCheckerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89036182D94A687000A8A0B /* HotdogCheckerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotdogCheckerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89036222D94A687000A8A0B /* HotdogCheckerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotdogCheckerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A890362A2D94A687000A8A0B /* Exceptions for "HotdogCheckerApp" folder in "HotdogCheckerApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A89036012D94A686000A8A0B /* HotdogCheckerApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A89036042D94A686000A8A0B /* HotdogCheckerApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A890362A2D94A687000A8A0B /* Exceptions for "HotdogCheckerApp" folder in "HotdogCheckerApp" target */,
+			);
+			path = HotdogCheckerApp;
+			sourceTree = "<group>";
+		};
+		A890361B2D94A687000A8A0B /* HotdogCheckerAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HotdogCheckerAppTests;
+			sourceTree = "<group>";
+		};
+		A89036252D94A687000A8A0B /* HotdogCheckerAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HotdogCheckerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A89035FF2D94A686000A8A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89036152D94A687000A8A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A890361F2D94A687000A8A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A89035F92D94A686000A8A0B = {
+			isa = PBXGroup;
+			children = (
+				A89036042D94A686000A8A0B /* HotdogCheckerApp */,
+				A890361B2D94A687000A8A0B /* HotdogCheckerAppTests */,
+				A89036252D94A687000A8A0B /* HotdogCheckerAppUITests */,
+				A89036032D94A686000A8A0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A89036032D94A686000A8A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A89036022D94A686000A8A0B /* HotdogCheckerApp.app */,
+				A89036182D94A687000A8A0B /* HotdogCheckerAppTests.xctest */,
+				A89036222D94A687000A8A0B /* HotdogCheckerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A89036012D94A686000A8A0B /* HotdogCheckerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A890362B2D94A687000A8A0B /* Build configuration list for PBXNativeTarget "HotdogCheckerApp" */;
+			buildPhases = (
+				A89035FE2D94A686000A8A0B /* Sources */,
+				A89035FF2D94A686000A8A0B /* Frameworks */,
+				A89036002D94A686000A8A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A89036042D94A686000A8A0B /* HotdogCheckerApp */,
+			);
+			name = HotdogCheckerApp;
+			packageProductDependencies = (
+			);
+			productName = HotdogCheckerApp;
+			productReference = A89036022D94A686000A8A0B /* HotdogCheckerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A89036172D94A687000A8A0B /* HotdogCheckerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89036302D94A687000A8A0B /* Build configuration list for PBXNativeTarget "HotdogCheckerAppTests" */;
+			buildPhases = (
+				A89036142D94A687000A8A0B /* Sources */,
+				A89036152D94A687000A8A0B /* Frameworks */,
+				A89036162D94A687000A8A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A890361A2D94A687000A8A0B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A890361B2D94A687000A8A0B /* HotdogCheckerAppTests */,
+			);
+			name = HotdogCheckerAppTests;
+			packageProductDependencies = (
+			);
+			productName = HotdogCheckerAppTests;
+			productReference = A89036182D94A687000A8A0B /* HotdogCheckerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A89036212D94A687000A8A0B /* HotdogCheckerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89036332D94A687000A8A0B /* Build configuration list for PBXNativeTarget "HotdogCheckerAppUITests" */;
+			buildPhases = (
+				A890361E2D94A687000A8A0B /* Sources */,
+				A890361F2D94A687000A8A0B /* Frameworks */,
+				A89036202D94A687000A8A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A89036242D94A687000A8A0B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A89036252D94A687000A8A0B /* HotdogCheckerAppUITests */,
+			);
+			name = HotdogCheckerAppUITests;
+			packageProductDependencies = (
+			);
+			productName = HotdogCheckerAppUITests;
+			productReference = A89036222D94A687000A8A0B /* HotdogCheckerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A89035FA2D94A686000A8A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A89036012D94A686000A8A0B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A89036172D94A687000A8A0B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A89036012D94A686000A8A0B;
+					};
+					A89036212D94A687000A8A0B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A89036012D94A686000A8A0B;
+					};
+				};
+			};
+			buildConfigurationList = A89035FD2D94A686000A8A0B /* Build configuration list for PBXProject "HotdogCheckerApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A89035F92D94A686000A8A0B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A89036032D94A686000A8A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A89036012D94A686000A8A0B /* HotdogCheckerApp */,
+				A89036172D94A687000A8A0B /* HotdogCheckerAppTests */,
+				A89036212D94A687000A8A0B /* HotdogCheckerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A89036002D94A686000A8A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89036162D94A687000A8A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89036202D94A687000A8A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A89035FE2D94A686000A8A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89036142D94A687000A8A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A890361E2D94A687000A8A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A890361A2D94A687000A8A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A89036012D94A686000A8A0B /* HotdogCheckerApp */;
+			targetProxy = A89036192D94A687000A8A0B /* PBXContainerItemProxy */;
+		};
+		A89036242D94A687000A8A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A89036012D94A686000A8A0B /* HotdogCheckerApp */;
+			targetProxy = A89036232D94A687000A8A0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A890362C2D94A687000A8A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3QUYNBWAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotdogCheckerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jemui.HotdogCheckerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_DEPRECATE_APPLICATION_MAIN = YES;
+				SWIFT_UPCOMING_FEATURE_DISABLE_OUTWARD_ACTOR_ISOLATION = YES;
+				SWIFT_UPCOMING_FEATURE_FORWARD_TRAILING_CLOSURES = YES;
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_IMPLICIT_OPEN_EXISTENTIALS = YES;
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_UPCOMING_FEATURE_ISOLATED_DEFAULT_VALUES = YES;
+				SWIFT_UPCOMING_FEATURE_REGION_BASED_ISOLATION = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A890362D2D94A687000A8A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3QUYNBWAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotdogCheckerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jemui.HotdogCheckerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_DEPRECATE_APPLICATION_MAIN = YES;
+				SWIFT_UPCOMING_FEATURE_DISABLE_OUTWARD_ACTOR_ISOLATION = YES;
+				SWIFT_UPCOMING_FEATURE_FORWARD_TRAILING_CLOSURES = YES;
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_IMPLICIT_OPEN_EXISTENTIALS = YES;
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_UPCOMING_FEATURE_ISOLATED_DEFAULT_VALUES = YES;
+				SWIFT_UPCOMING_FEATURE_REGION_BASED_ISOLATION = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A890362E2D94A687000A8A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A890362F2D94A687000A8A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A89036312D94A687000A8A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3QUYNBWAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jemui.HotdogCheckerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotdogCheckerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotdogCheckerApp";
+			};
+			name = Debug;
+		};
+		A89036322D94A687000A8A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3QUYNBWAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jemui.HotdogCheckerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotdogCheckerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotdogCheckerApp";
+			};
+			name = Release;
+		};
+		A89036342D94A687000A8A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3QUYNBWAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jemui.HotdogCheckerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotdogCheckerApp;
+			};
+			name = Debug;
+		};
+		A89036352D94A687000A8A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3QUYNBWAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jemui.HotdogCheckerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotdogCheckerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A89035FD2D94A686000A8A0B /* Build configuration list for PBXProject "HotdogCheckerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A890362E2D94A687000A8A0B /* Debug */,
+				A890362F2D94A687000A8A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A890362B2D94A687000A8A0B /* Build configuration list for PBXNativeTarget "HotdogCheckerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A890362C2D94A687000A8A0B /* Debug */,
+				A890362D2D94A687000A8A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89036302D94A687000A8A0B /* Build configuration list for PBXNativeTarget "HotdogCheckerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89036312D94A687000A8A0B /* Debug */,
+				A89036322D94A687000A8A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89036332D94A687000A8A0B /* Build configuration list for PBXNativeTarget "HotdogCheckerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89036342D94A687000A8A0B /* Debug */,
+				A89036352D94A687000A8A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A89035FA2D94A686000A8A0B /* Project object */;
+}
